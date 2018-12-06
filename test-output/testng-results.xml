@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75407" started-at="2018-12-06T12:34:55Z" finished-at="2018-12-06T12:36:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="75407" started-at="2018-12-06T12:34:55Z" finished-at="2018-12-06T12:36:11Z">
+      <class name="Scripts.OnTheGo_AndroidProject.peopleSearch_valid">
+        <test-method status="PASS" signature="serveron()[pri:0, instance:Scripts.OnTheGo_AndroidProject.peopleSearch_valid@548ad73b]" name="serveron" is-config="true" duration-ms="24143" started-at="2018-12-06T12:34:31Z" finished-at="2018-12-06T12:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serveron -->
+        <test-method status="PASS" signature="openapp()[pri:0, instance:Scripts.OnTheGo_AndroidProject.peopleSearch_valid@548ad73b]" name="openapp" is-config="true" duration-ms="18129" started-at="2018-12-06T12:34:55Z" finished-at="2018-12-06T12:35:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="FAIL" signature="validpeopleSearch()[pri:6, instance:Scripts.OnTheGo_AndroidProject.peopleSearch_valid@548ad73b]" name="validpeopleSearch" duration-ms="54161" started-at="2018-12-06T12:35:13Z" finished-at="2018-12-06T12:36:08Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at Generic.OnTheGo_AndroidProject.Base_page.gotoframe(Base_page.java:38)
+at POM.OnTheGo_AndroidProject.peopleSearch.searchpeople(peopleSearch.java:56)
+at Scripts.OnTheGo_AndroidProject.peopleSearch_valid.validpeopleSearch(peopleSearch_valid.java:25)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validpeopleSearch -->
+        <test-method status="PASS" signature="closeappp(org.testng.ITestResult)[pri:0, instance:Scripts.OnTheGo_AndroidProject.peopleSearch_valid@548ad73b]" name="closeappp" is-config="true" duration-ms="3058" started-at="2018-12-06T12:36:08Z" finished-at="2018-12-06T12:36:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validpeopleSearch status=FAILURE method=peopleSearch_valid.validpeopleSearch()[pri:6, instance:Scripts.OnTheGo_AndroidProject.peopleSearch_valid@548ad73b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeappp -->
+        <test-method status="PASS" signature="turnoff()[pri:0, instance:Scripts.OnTheGo_AndroidProject.peopleSearch_valid@548ad73b]" name="turnoff" is-config="true" duration-ms="63" started-at="2018-12-06T12:36:11Z" finished-at="2018-12-06T12:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnoff -->
+      </class> <!-- Scripts.OnTheGo_AndroidProject.peopleSearch_valid -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

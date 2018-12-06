@@ -1,0 +1,15 @@
+2018-12-06 18:04:31,679 - org.apache.log4j.Logger -INFO - ***************************************************************
+2018-12-06 18:04:31,690 - org.apache.log4j.Logger -INFO - Executing Before Suite
+2018-12-06 18:04:55,744 - org.apache.log4j.Logger -INFO - Executing Before Method 
+2018-12-06 18:05:19,969 - org.apache.log4j.Logger -INFO - Login Credentials Passed
+2018-12-06 18:05:29,276 - org.apache.log4j.Logger -INFO - Email id provided as vinesh.c@brillio.com
+2018-12-06 18:05:29,276 - org.apache.log4j.Logger -DEBUG - vinesh.c@brillio.com
+2018-12-06 18:05:37,381 - org.apache.log4j.Logger -INFO - Password id provided as YnJpbGxpb0AyMDIx
+2018-12-06 18:05:37,381 - org.apache.log4j.Logger -DEBUG - [B@1b73be9f
+2018-12-06 18:05:38,533 - org.apache.log4j.Logger -INFO - Tapped on login button
+2018-12-06 18:05:49,299 - org.apache.log4j.Logger -INFO - Tapped on skip button
+2018-12-06 18:06:07,029 - org.apache.log4j.Logger -INFO - Happy BirthdayNagaraj Kumaraswamy
+2018-12-06 18:06:08,059 - org.apache.log4j.Logger -INFO - Executing After Method
+2018-12-06 18:06:10,046 - org.apache.log4j.Logger -INFO - Quit from driver.
+2018-12-06 18:06:11,885 - org.apache.log4j.Logger -INFO - Executing After Suite
+2018-12-06 18:06:11,948 - org.apache.log4j.Logger -INFO - ***************************************************************
